@@ -1,16 +1,18 @@
+import { Header } from './Header';
+import { Hero } from './Hero';
+
 export const App = () => {
   return (
     <div
       style={{
+        backgroundColor: '#111111',
         height: '100vh',
         display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
+        flexDirection: 'column',
       }}
     >
-      React homework template
+      <Header></Header>
+      <Hero></Hero>
     </div>
   );
 };

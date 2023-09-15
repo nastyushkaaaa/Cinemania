@@ -1,0 +1,13 @@
+.container {
+  height: 720px;
+  padding-left: 32px;
+}
+
+.startBtn {
+  width: 130px;
+  height: 48px;
+  border-radius: 74px;
+  background: linear-gradient(to top left, #f84119, #ffc226);
+  border: 0px solid;
+  font-size: 16px;
+}

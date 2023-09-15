@@ -1,0 +1,37 @@
+.header {
+  height: 60px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding: 18px 32px;
+  margin: 0px;
+  background-color: #000000;
+}
+
+.logoTitle {
+  margin: 0px;
+  font-size: 24px;
+  color: #fff;
+}
+
+.nav {
+  display: flex;
+  /* align-items: center; */
+  margin: 0px;
+  margin-left: 307px;
+  gap: 40px;
+  list-style: none;
+  color: #b7b7b7;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.themeButton {
+  position: absolute;
+  right: 32px;
+  width: 60px;
+  height: 24px;
+  background: linear-gradient(to top left, #f84119, #ffc226);
+  border: 0px solid;
+  border-radius: 16px;
+}
