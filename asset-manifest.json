@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Cinemania/static/css/main.ec278fd4.css",
-    "main.js": "/Cinemania/static/js/main.f57f55c9.js",
+    "main.css": "/Cinemania/static/css/main.a274fbb5.css",
+    "main.js": "/Cinemania/static/js/main.c13821ea.js",
     "static/media/Subtract.png": "/Cinemania/static/media/Subtract.957a40b21be8dd95debf.png",
     "index.html": "/Cinemania/index.html",
-    "main.ec278fd4.css.map": "/Cinemania/static/css/main.ec278fd4.css.map",
-    "main.f57f55c9.js.map": "/Cinemania/static/js/main.f57f55c9.js.map"
+    "main.a274fbb5.css.map": "/Cinemania/static/css/main.a274fbb5.css.map",
+    "main.c13821ea.js.map": "/Cinemania/static/js/main.c13821ea.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec278fd4.css",
-    "static/js/main.f57f55c9.js"
+    "static/css/main.a274fbb5.css",
+    "static/js/main.c13821ea.js"
   ]
 }
