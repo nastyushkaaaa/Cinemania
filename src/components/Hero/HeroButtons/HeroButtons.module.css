@@ -1,0 +1,14 @@
+.bottonsCont {
+  margin-top: 46px;
+}
+
+.button {
+  width: 28px;
+  height: 28px;
+  background-color: transparent;
+  border: solid transparent;
+}
+
+.backIcon {
+  transform: rotate(180deg);
+}

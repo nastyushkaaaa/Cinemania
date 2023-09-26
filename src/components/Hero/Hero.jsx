@@ -1,6 +1,7 @@
 import css from './Hero.module.css';
+import { HeroButtons } from './HeroButtons';
 
-export const Hero = ({ movie }) => {
+export const Hero = ({ movie, handleToTheNextMovie, handleToThePrevMovie }) => {
   const { id, title, overview, poster_path } = movie;
   return (
     <li key={id} className={css.container}>
@@ -21,19 +22,13 @@ export const Hero = ({ movie }) => {
         ></div>
         <div className={css.content}>
           <h1 className={css.title}>{title}</h1>
-
           <p className={css.description}>{overview}</p>
           <button className={css.startBtn}>Watch trailer</button>
         </div>
-        {/* <img
-        src={
-          poster_path
-            ? `https://image.tmdb.org/t/p/original${poster_path}`
-            : 'No poster'
-        }
-        alt={title}
-        className={css.poster}
-      ></img> */}
+        <HeroButtons
+          handleToTheNextMovie={handleToTheNextMovie}
+          handleToThePrevMovie={handleToThePrevMovie}
+        ></HeroButtons>
       </div>
     </li>
   );
